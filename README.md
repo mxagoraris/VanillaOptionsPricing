@@ -1,2 +1,12 @@
-# VanillaOptionsPricing
+# Vanilla Options Pricing
 European Options Pricing Using Black and Scholes method and Monte Carlo Simulation
+This code takes about an an underlying asset and it calculates its european options either call or put price using Black and Scholes method or Monte Carlo simulation.
+
+An options contract is an agreement between two parties to facilitate a potential transaction on the underlying security at a preset price, referred to as the strike price, prior to the expiration date. The two types of contracts are put and call options, both of which can be purchased to speculate on the direction of stocks or stock indices, or sold to generate income. For stock options, a single contract covers 100 shares of the underlying stock. (https://www.investopedia.com/terms/o/optionscontract.asp)
+
+A European option is a version of an options contract that limits execution to its expiration date. In other words, if the underlying security such as a stock has moved in price, an investor would not be able to exercise the option early and take delivery of or sell the shares. Instead, the call or put action will only take place on the date of option maturity. Another version of the options contract is the American option, which can be exercised any time up to and including the date of expiration. The names of these two versions should not be confused with the geographic location as the name only signifies the right of execution. (https://www.investopedia.com/terms/e/europeanoption.asp)
+
+The Black-Scholes model, also known as the Black-Scholes-Merton (BSM) model, is a mathematical model for pricing an options contract. In particular, the model estimates the variation over time of financial instruments. (https://www.investopedia.com/terms/b/blackscholes.asphttps://www.investopedia.com/terms/b/blackscholes.asp)
+Note: Here we use a variation of Black and Scholes model that takes into consideration the dividend return. 
+
+Monte Carlo simulations are used to model the probability of different outcomes in a process that cannot easily be predicted due to the intervention of random variables. It is a technique used to understand the impact of risk and uncertainty in prediction and forecasting models. A Monte Carlo simulation can be used to tackle a range of problems in virtually every field such as finance, engineering, supply chain, and science. It is also referred to as a multiple probability simulation. (https://www.investopedia.com/terms/m/montecarlosimulation.asp)
